@@ -1,0 +1,62 @@
+:root {
+  --background-color: hsl(240, 90%, 21%);
+  --standard-white: white;
+}
+
+h1,
+h2,
+p,
+body,
+a {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  padding: 1em;
+  background-color: var(--background-color);
+}
+
+#title {
+  display: inline-block;
+  width: 100%;
+}
+
+#title img {
+  height: 3em;
+}
+
+nav {
+  margin-top: 1em;
+}
+
+nav a {
+  margin-right: 0.5em;
+  padding: 0.5em;
+  color: black;
+  background-color: var(--standard-white);
+}
+
+#links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-card {
+  border-width: 0.1em;
+  border-style: solid;
+  overflow: hidden;
+  display: inline-block;
+  width: 25%;
+}
+
+.link-card img {
+  width: 100%;
+}
+
+.link-card figcaption {
+  background-color: var(--background-color);
+  color: white;
+  padding: 0.5em;
+  width: 100%;
+}
